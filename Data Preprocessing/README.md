@@ -1,4 +1,4 @@
-Apache beam transformation:\
+Apache beam transformation:
 
 Since our tables are modified well, we basically did mathematical transformation on the table SDGInfo.
 
@@ -8,7 +8,7 @@ Thus the return is [(Country_Code, Indicator_Code, year), average]
 Also, we did row-to-column transformation. Our original columes include Country_Code, Indicator_Code, Y1990.........,Y2018.
 We change our columns to Country_Code, Indicator_Code, Year, Indicator_Value. In other words, one row in our original table was spilited into 29 rows because there are 29 years.
 
-Workflow:\
+Workflow:
 
 We keep getting this error:
 set([(u'workflow', u'SEO_beam', datetime.datetime(2019, 5, 2, 0, 0, tzinfo=<Timezone [UTC]>), 4), (u'workflow', u'GERD_beam', datetime.datetime(2019, 5, 2, 0, 0, tzinfo=<Timezone [UTC]>), 4)])
