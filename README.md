@@ -1,5 +1,5 @@
-Lemon\
+CS327e final project\
 Lin Hui\
 huilin@utexas.edu\
 Jilong Lin\
-jilonglin@hotmail.com
+jl64985@stanford.edu
